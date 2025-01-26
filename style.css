@@ -1,0 +1,63 @@
+
+ * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f9; /* Light gray for a clean background */
+}
+
+.wrapper {
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: #1e293b; /* Dark navy blue for contrast */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px rgba(30, 41, 59, 0.4);
+}
+
+span {
+    display: block;
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    color: #0ea5e9; /* Vibrant blue for headings */
+}
+
+p {
+    font-size: 16px;
+    color: #e2e8f0; /* Light gray for text readability */
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px;
+    margin: 30px 0px;
+    opacity: 1;
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity 15s; /* Fixed typo in transition timing */
+}
+
+button {
+    display: block;
+    background-color: #38bdf8; /* Soft blue for buttons */
+    padding: 12px 25px;
+    border: none;
+    font-size: 18px;
+    color: white; /* White text for better contrast */
+    font-weight: 600;
+    margin: 0px auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0ea5e9; /* Slightly darker blue on hover */
+}
